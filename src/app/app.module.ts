@@ -14,7 +14,12 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
   ],
-  declarations: [AppComponent, HelloComponent, TopBarComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    TopBarComponent,
+    ProductListComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
